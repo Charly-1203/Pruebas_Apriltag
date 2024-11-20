@@ -1,0 +1,22 @@
+v4l2_camera_node:
+  ros__parameters:
+    focus_auto: true
+    exposure_auto_priority: true
+    exposure_auto: 3
+    white_balance_temperature_auto: true
+    power_line_frequency: 1
+    output_encoding: "rgb8"
+    ignore:
+      - brightness
+      - contrast
+      - saturation
+      - gain
+      - sharpness
+      - backlight_compensation
+      - white_balance_temperature
+      - exposure_absolute
+      - pan_absolute
+      - tilt_absolute
+      - focus_absolute
+      - zoom_absolute
+

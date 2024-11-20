@@ -1,0 +1,39 @@
+[0.023s] Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit': CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit:/home/robousr/ROS2Dev/Robofriends/install/examen_description:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit -- -j2 -l2
+[0.116s] [ 33%] Built target apriltag_detector_mit
+[0.144s] [ 66%] Built target apriltag_detector_mit_component
+[0.171s] [100%] Built target apriltag_detector_mit_node
+[0.186s] Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit' returned '0': CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit:/home/robousr/ROS2Dev/Robofriends/install/examen_description:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit -- -j2 -l2
+[0.231s] Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit': CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit:/home/robousr/ROS2Dev/Robofriends/install/examen_description:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit
+[0.240s] -- Install configuration: ""
+[0.241s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/plugins.xml
+[0.241s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/library_path.sh
+[0.241s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/library_path.dsv
+[0.242s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/lib/apriltag_detector_mit/apriltag_detector_mit_node
+[0.242s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/lib/libapriltag_detector_mit.so
+[0.243s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/lib/libapriltag_detector_mit_component.so
+[0.243s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/include
+[0.243s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/include/apriltag_detector_mit
+[0.244s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit//launch
+[0.244s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit//launch/detector.launch.py
+[0.244s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/ament_index/resource_index/package_run_dependencies/apriltag_detector_mit
+[0.244s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/ament_index/resource_index/parent_prefix_path/apriltag_detector_mit
+[0.244s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/ament_prefix_path.sh
+[0.245s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/ament_prefix_path.dsv
+[0.245s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/path.sh
+[0.245s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/path.dsv
+[0.245s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/local_setup.bash
+[0.246s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/local_setup.sh
+[0.246s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/local_setup.zsh
+[0.246s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/local_setup.dsv
+[0.246s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/package.dsv
+[0.246s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/ament_index/resource_index/packages/apriltag_detector_mit
+[0.247s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/ament_index/resource_index/apriltag_detector__pluginlib__plugin/apriltag_detector_mit
+[0.247s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/apriltag_detector_mit_exportExport.cmake
+[0.247s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/apriltag_detector_mit_exportExport-noconfig.cmake
+[0.248s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/ament_index/resource_index/rclcpp_components/apriltag_detector_mit
+[0.248s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/ament_cmake_export_targets-extras.cmake
+[0.248s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/ament_cmake_export_libraries-extras.cmake
+[0.249s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/apriltag_detector_mitConfig.cmake
+[0.249s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/apriltag_detector_mitConfig-version.cmake
+[0.249s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/package.xml
+[0.254s] Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit' returned '0': CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich:/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit:/home/robousr/ROS2Dev/Robofriends/install/examen_description:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit
