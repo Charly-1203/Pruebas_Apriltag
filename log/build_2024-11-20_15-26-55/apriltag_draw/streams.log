@@ -1,0 +1,28 @@
+[0.068s] Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw -- -j2 -l2
+[0.303s] [ 50%] Built target apriltag_draw
+[0.366s] [100%] Built target apriltag_draw_node
+[0.383s] Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw -- -j2 -l2
+[0.447s] Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw
+[0.465s] -- Install configuration: ""
+[0.465s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/lib/apriltag_draw/apriltag_draw_node
+[0.466s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/lib/libapriltag_draw.so
+[0.466s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw//launch
+[0.466s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw//launch/draw.launch.py
+[0.467s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw//launch/composable.launch.py
+[0.467s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/ament_index/resource_index/package_run_dependencies/apriltag_draw
+[0.467s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/ament_index/resource_index/parent_prefix_path/apriltag_draw
+[0.467s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/environment/ament_prefix_path.sh
+[0.467s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/environment/ament_prefix_path.dsv
+[0.467s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/environment/path.sh
+[0.467s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/environment/path.dsv
+[0.467s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/local_setup.bash
+[0.467s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/local_setup.sh
+[0.468s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/local_setup.zsh
+[0.468s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/local_setup.dsv
+[0.468s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/package.dsv
+[0.468s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/ament_index/resource_index/packages/apriltag_draw
+[0.468s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/ament_index/resource_index/rclcpp_components/apriltag_draw
+[0.470s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/cmake/apriltag_drawConfig.cmake
+[0.470s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/cmake/apriltag_drawConfig-version.cmake
+[0.470s] -- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/package.xml
+[0.484s] Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw
