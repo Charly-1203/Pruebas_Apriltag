@@ -1,0 +1,2 @@
+Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector -- -j2 -l2
+Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector -- -j2 -l2

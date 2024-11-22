@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target apriltag_draw[0m
+[ 50%] Built target apriltag_draw
+[35m[1mConsolidate compiler generated dependencies of target apriltag_draw_node[0m
+[100%] Built target apriltag_draw_node
+-- Install configuration: ""
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/lib/apriltag_draw/apriltag_draw_node
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/lib/libapriltag_draw.so
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw//launch
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw//launch/draw.launch.py
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw//launch/composable.launch.py
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/ament_index/resource_index/package_run_dependencies/apriltag_draw
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/ament_index/resource_index/parent_prefix_path/apriltag_draw
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/environment/path.sh
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/environment/path.dsv
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/local_setup.bash
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/local_setup.sh
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/local_setup.zsh
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/local_setup.dsv
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.dsv
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/ament_index/resource_index/packages/apriltag_draw
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/ament_index/resource_index/rclcpp_components/apriltag_draw
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/cmake/apriltag_drawConfig.cmake
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/cmake/apriltag_drawConfig-version.cmake
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.xml

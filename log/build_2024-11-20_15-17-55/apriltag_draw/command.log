@@ -1,0 +1,1 @@
+Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw -- -j2 -l2

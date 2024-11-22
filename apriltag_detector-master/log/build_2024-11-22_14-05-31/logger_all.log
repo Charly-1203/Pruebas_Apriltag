@@ -1,0 +1,362 @@
+[1.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.079s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x739711a2fa90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x739711a2f310>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x739711a2f310>>, mixin_verb=('build',))
+[2.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.080s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.120s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector) by extensions ['ignore', 'ignore_ament_install']
+[2.120s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector) by extension 'ignore'
+[2.120s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector) by extension 'ignore_ament_install'
+[2.120s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector) by extensions ['colcon_pkg']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector) by extension 'colcon_pkg'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector) by extensions ['colcon_meta']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector) by extension 'colcon_meta'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector) by extensions ['ros']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector) by extension 'ros'
+[2.152s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_detector' with type 'ros.ament_cmake' and name 'apriltag_detector'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_mit) by extensions ['ignore', 'ignore_ament_install']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_mit) by extension 'ignore'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_mit) by extension 'ignore_ament_install'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_mit) by extensions ['colcon_pkg']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_mit) by extension 'colcon_pkg'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_mit) by extensions ['colcon_meta']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_mit) by extension 'colcon_meta'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_mit) by extensions ['ros']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_mit) by extension 'ros'
+[2.158s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_detector_mit' with type 'ros.ament_cmake' and name 'apriltag_detector_mit'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_umich) by extensions ['ignore', 'ignore_ament_install']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_umich) by extension 'ignore'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_umich) by extension 'ignore_ament_install'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_umich) by extensions ['colcon_pkg']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_umich) by extension 'colcon_pkg'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_umich) by extensions ['colcon_meta']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_umich) by extension 'colcon_meta'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_umich) by extensions ['ros']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_detector_umich) by extension 'ros'
+[2.163s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_detector_umich' with type 'ros.ament_cmake' and name 'apriltag_detector_umich'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_draw) by extensions ['ignore', 'ignore_ament_install']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_draw) by extension 'ignore'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_draw) by extension 'ignore_ament_install'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_draw) by extensions ['colcon_pkg']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_draw) by extension 'colcon_pkg'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_draw) by extensions ['colcon_meta']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_draw) by extension 'colcon_meta'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_draw) by extensions ['ros']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_draw) by extension 'ros'
+[2.168s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_draw' with type 'ros.ament_cmake' and name 'apriltag_draw'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ignore', 'ignore_ament_install']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore_ament_install'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_pkg']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_pkg'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_meta']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_meta'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ros']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ros'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['cmake', 'python']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'cmake'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['python_setup_py']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python_setup_py'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.279s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 294 installed packages in /opt/ros/humble
+[2.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector' build argument 'cmake_args' from command line to 'None'
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector' build argument 'cmake_target' from command line to 'None'
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.390s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[2.390s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector' build argument 'cmake_clean_first' from command line to 'False'
+[2.390s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector' build argument 'cmake_force_configure' from command line to 'False'
+[2.390s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector' build argument 'ament_cmake_args' from command line to 'None'
+[2.390s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[2.390s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.390s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector', 'merge_install': False, 'path': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector', 'symlink_install': False, 'test_result_base': None}
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_draw' build argument 'cmake_args' from command line to 'None'
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_draw' build argument 'cmake_target' from command line to 'None'
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_draw' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_draw' build argument 'cmake_clean_cache' from command line to 'False'
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_draw' build argument 'cmake_clean_first' from command line to 'False'
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_draw' build argument 'cmake_force_configure' from command line to 'False'
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_draw' build argument 'ament_cmake_args' from command line to 'None'
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_draw' build argument 'catkin_cmake_args' from command line to 'None'
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'apriltag_draw' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.392s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_draw' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw', 'merge_install': False, 'path': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_draw', 'symlink_install': False, 'test_result_base': None}
+[2.392s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_mit' build argument 'cmake_args' from command line to 'None'
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_mit' build argument 'cmake_target' from command line to 'None'
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_mit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_mit' build argument 'cmake_clean_cache' from command line to 'False'
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_mit' build argument 'cmake_clean_first' from command line to 'False'
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_mit' build argument 'cmake_force_configure' from command line to 'False'
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_mit' build argument 'ament_cmake_args' from command line to 'None'
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_mit' build argument 'catkin_cmake_args' from command line to 'None'
+[2.393s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_mit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.393s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_detector_mit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_mit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit', 'merge_install': False, 'path': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector_mit', 'symlink_install': False, 'test_result_base': None}
+[2.394s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_umich' build argument 'cmake_args' from command line to 'None'
+[2.394s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_umich' build argument 'cmake_target' from command line to 'None'
+[2.394s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_umich' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.394s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_umich' build argument 'cmake_clean_cache' from command line to 'False'
+[2.394s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_umich' build argument 'cmake_clean_first' from command line to 'False'
+[2.394s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_umich' build argument 'cmake_force_configure' from command line to 'False'
+[2.394s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_umich' build argument 'ament_cmake_args' from command line to 'None'
+[2.395s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_umich' build argument 'catkin_cmake_args' from command line to 'None'
+[2.395s] Level 5:colcon.colcon_core.verb:set package 'apriltag_detector_umich' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.395s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_detector_umich' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich', 'merge_install': False, 'path': '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector_umich', 'symlink_install': False, 'test_result_base': None}
+[2.395s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.398s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.398s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector' with build type 'ament_cmake'
+[2.399s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector'
+[2.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.433s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_draw' with build type 'ament_cmake'
+[2.433s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_draw'
+[2.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector
+[2.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_draw -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw
+[7.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector
+[7.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector -- -j2 -l2
+[7.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector -- -j2 -l2
+[7.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector
+[7.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_detector)
+[7.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector
+[7.600s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector' for CMake module files
+[7.602s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector' for CMake config files
+[7.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_detector', 'cmake_prefix_path')
+[7.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/hook/cmake_prefix_path.ps1'
+[7.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/hook/cmake_prefix_path.dsv'
+[7.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/hook/cmake_prefix_path.sh'
+[7.612s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/bin'
+[7.612s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib/pkgconfig/apriltag_detector.pc'
+[7.613s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib/python3.10/site-packages'
+[7.614s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/bin'
+[7.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.ps1'
+[7.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.dsv'
+[7.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.sh'
+[7.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.bash'
+[7.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.zsh'
+[7.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/colcon-core/packages/apriltag_detector)
+[7.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_detector)
+[7.729s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector' for CMake module files
+[7.731s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector' for CMake config files
+[7.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_detector', 'cmake_prefix_path')
+[7.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/hook/cmake_prefix_path.ps1'
+[7.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/hook/cmake_prefix_path.dsv'
+[7.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/hook/cmake_prefix_path.sh'
+[7.738s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/bin'
+[7.738s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib/pkgconfig/apriltag_detector.pc'
+[7.739s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib/python3.10/site-packages'
+[7.739s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/bin'
+[7.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.ps1'
+[7.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.dsv'
+[7.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.sh'
+[7.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.bash'
+[7.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.zsh'
+[7.748s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/colcon-core/packages/apriltag_detector)
+[7.750s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector_mit' with build type 'ament_cmake'
+[7.751s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector_mit'
+[7.752s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_mit': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector_mit -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit
+[8.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_draw -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw
+[8.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw -- -j2 -l2
+[13.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_mit' returned '0': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector_mit -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit
+[13.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_mit': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_mit -- -j2 -l2
+[54.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw -- -j2 -l2
+[54.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw
+[54.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_draw)
+[54.819s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw' for CMake module files
+[54.820s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw' for CMake config files
+[54.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_draw', 'cmake_prefix_path')
+[54.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/cmake_prefix_path.ps1'
+[54.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw
+[54.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/cmake_prefix_path.dsv'
+[54.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/cmake_prefix_path.sh'
+[54.827s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/lib'
+[54.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_draw', 'ld_library_path_lib')
+[54.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/ld_library_path_lib.ps1'
+[54.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/ld_library_path_lib.dsv'
+[54.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/ld_library_path_lib.sh'
+[54.832s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/bin'
+[54.832s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/lib/pkgconfig/apriltag_draw.pc'
+[54.833s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/lib/python3.10/site-packages'
+[54.833s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/bin'
+[54.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.ps1'
+[54.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.dsv'
+[54.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.sh'
+[54.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.bash'
+[54.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.zsh'
+[54.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/colcon-core/packages/apriltag_draw)
+[54.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_draw)
+[54.958s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw' for CMake module files
+[54.959s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw' for CMake config files
+[54.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_draw', 'cmake_prefix_path')
+[54.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/cmake_prefix_path.ps1'
+[54.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/cmake_prefix_path.dsv'
+[54.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/cmake_prefix_path.sh'
+[54.965s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/lib'
+[54.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_draw', 'ld_library_path_lib')
+[54.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/ld_library_path_lib.ps1'
+[54.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/ld_library_path_lib.dsv'
+[54.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/hook/ld_library_path_lib.sh'
+[54.972s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/bin'
+[54.972s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/lib/pkgconfig/apriltag_draw.pc'
+[54.973s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/lib/python3.10/site-packages'
+[54.973s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/bin'
+[54.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.ps1'
+[54.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.dsv'
+[54.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.sh'
+[54.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.bash'
+[54.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/apriltag_draw/package.zsh'
+[54.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_draw/share/colcon-core/packages/apriltag_draw)
+[54.986s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector_umich' with build type 'ament_cmake'
+[54.986s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector_umich'
+[54.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[54.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector_umich -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich
+[58.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_mit' returned '0': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_mit -- -j2 -l2
+[58.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_mit': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_mit
+[58.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_detector_mit)
+[58.861s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit' for CMake module files
+[58.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_mit' returned '0': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_mit
+[58.865s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit' for CMake config files
+[58.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_detector_mit', 'cmake_prefix_path')
+[58.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/cmake_prefix_path.ps1'
+[58.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/cmake_prefix_path.dsv'
+[58.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/cmake_prefix_path.sh'
+[58.869s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/lib'
+[58.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_detector_mit', 'ld_library_path_lib')
+[58.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/ld_library_path_lib.ps1'
+[58.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/ld_library_path_lib.dsv'
+[58.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/ld_library_path_lib.sh'
+[58.873s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/bin'
+[58.873s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/lib/pkgconfig/apriltag_detector_mit.pc'
+[58.873s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/lib/python3.10/site-packages'
+[58.874s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/bin'
+[58.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/package.ps1'
+[58.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/package.dsv'
+[58.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/package.sh'
+[58.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/package.bash'
+[58.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/package.zsh'
+[58.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/colcon-core/packages/apriltag_detector_mit)
+[58.991s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_detector_mit)
+[58.992s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit' for CMake module files
+[58.993s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit' for CMake config files
+[58.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_detector_mit', 'cmake_prefix_path')
+[58.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/cmake_prefix_path.ps1'
+[58.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/cmake_prefix_path.dsv'
+[59.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/cmake_prefix_path.sh'
+[59.004s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/lib'
+[59.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_detector_mit', 'ld_library_path_lib')
+[59.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/ld_library_path_lib.ps1'
+[59.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/ld_library_path_lib.dsv'
+[59.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/hook/ld_library_path_lib.sh'
+[59.009s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/bin'
+[59.009s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/lib/pkgconfig/apriltag_detector_mit.pc'
+[59.009s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/lib/python3.10/site-packages'
+[59.010s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/bin'
+[59.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/package.ps1'
+[59.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/package.dsv'
+[59.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/package.sh'
+[59.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/package.bash'
+[59.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/apriltag_detector_mit/package.zsh'
+[59.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_mit/share/colcon-core/packages/apriltag_detector_mit)
+[59.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich' returned '0': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector_umich -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich
+[59.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich -- -j2 -l2
+[90.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich' returned '0': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich -- -j2 -l2
+[90.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich
+[90.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_detector_umich)
+[90.743s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich' for CMake module files
+[90.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich' returned '0': AMENT_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector:/opt/ros/humble LD_LIBRARY_PATH=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich
+[90.746s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich' for CMake config files
+[90.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_detector_umich', 'cmake_prefix_path')
+[90.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/cmake_prefix_path.ps1'
+[90.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/cmake_prefix_path.dsv'
+[90.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/cmake_prefix_path.sh'
+[90.751s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/lib'
+[90.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_detector_umich', 'ld_library_path_lib')
+[90.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/ld_library_path_lib.ps1'
+[90.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/ld_library_path_lib.dsv'
+[90.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/ld_library_path_lib.sh'
+[90.754s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/bin'
+[90.754s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/lib/pkgconfig/apriltag_detector_umich.pc'
+[90.755s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/lib/python3.10/site-packages'
+[90.756s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/bin'
+[90.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/package.ps1'
+[90.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/package.dsv'
+[90.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/package.sh'
+[90.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/package.bash'
+[90.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/package.zsh'
+[90.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/colcon-core/packages/apriltag_detector_umich)
+[90.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_detector_umich)
+[90.884s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich' for CMake module files
+[90.886s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich' for CMake config files
+[90.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_detector_umich', 'cmake_prefix_path')
+[90.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/cmake_prefix_path.ps1'
+[90.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/cmake_prefix_path.dsv'
+[90.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/cmake_prefix_path.sh'
+[90.892s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/lib'
+[90.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_detector_umich', 'ld_library_path_lib')
+[90.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/ld_library_path_lib.ps1'
+[90.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/ld_library_path_lib.dsv'
+[90.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/hook/ld_library_path_lib.sh'
+[90.896s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/bin'
+[90.896s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/lib/pkgconfig/apriltag_detector_umich.pc'
+[90.897s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/lib/python3.10/site-packages'
+[90.897s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/bin'
+[90.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/package.ps1'
+[90.900s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/package.dsv'
+[90.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/package.sh'
+[90.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/package.bash'
+[90.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/apriltag_detector_umich/package.zsh'
+[90.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector_umich/share/colcon-core/packages/apriltag_detector_umich)
+[90.908s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[90.909s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[90.910s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[90.910s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[90.938s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[90.938s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[90.938s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[91.005s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[91.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/local_setup.ps1'
+[91.014s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/_local_setup_util_ps1.py'
+[91.018s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/setup.ps1'
+[91.021s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/local_setup.sh'
+[91.033s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/_local_setup_util_sh.py'
+[91.035s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/setup.sh'
+[91.038s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/local_setup.bash'
+[91.041s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/setup.bash'
+[91.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/local_setup.zsh'
+[91.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/setup.zsh'

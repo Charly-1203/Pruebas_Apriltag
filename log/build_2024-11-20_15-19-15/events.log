@@ -1,0 +1,523 @@
+[0.000000] (-) TimerEvent: {}
+[0.000874] (apriltag_detector) JobQueued: {'identifier': 'apriltag_detector', 'dependencies': OrderedDict()}
+[0.001119] (apriltag_draw) JobQueued: {'identifier': 'apriltag_draw', 'dependencies': OrderedDict()}
+[0.001182] (apriltag_detector_mit) JobQueued: {'identifier': 'apriltag_detector_mit', 'dependencies': OrderedDict([('apriltag_detector', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector')])}
+[0.001236] (apriltag_detector_umich) JobQueued: {'identifier': 'apriltag_detector_umich', 'dependencies': OrderedDict([('apriltag_detector', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector')])}
+[0.001283] (apriltag_detector) JobStarted: {'identifier': 'apriltag_detector'}
+[0.010938] (apriltag_draw) JobStarted: {'identifier': 'apriltag_draw'}
+[0.018068] (apriltag_detector) JobProgress: {'identifier': 'apriltag_detector', 'progress': 'cmake'}
+[0.018945] (apriltag_detector) JobProgress: {'identifier': 'apriltag_detector', 'progress': 'build'}
+[0.019964] (apriltag_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector', '--', '-j2', '-l2'], 'cwd': '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robousr'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robousr'), ('OLDPWD', '/home/robousr/ROS2Dev'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robousr/.nvm/versions/node/v20.16.0/bin'), ('PYENV_SHELL', 'bash'), ('NVM_INC', '/home/robousr/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '2100'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIT_PS1_SHOWUNTRACKEDFILES', 'true'), ('COLORTERM', 'truecolor'), ('GIT_PS1_SHOWSTASHSTATE', 'true'), ('NVM_DIR', '/home/robousr/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robousr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robousr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robolab-vm:@/tmp/.ICE-unix/1570,unix/robolab-vm:/tmp/.ICE-unix/1570'), ('GIT_PS1_SHOWDIRTYSTATE', 'true'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8cdc1b65_0115_46ea_9881_00f23f9fc32a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2B30W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', 'true'), ('NVM_CD_FLAGS', ''), ('PYENV_ROOT', '/home/robousr/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.043944] (apriltag_draw) JobProgress: {'identifier': 'apriltag_draw', 'progress': 'cmake'}
+[0.044052] (apriltag_draw) JobProgress: {'identifier': 'apriltag_draw', 'progress': 'build'}
+[0.044101] (apriltag_draw) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw', '--', '-j2', '-l2'], 'cwd': '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robousr'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robousr'), ('OLDPWD', '/home/robousr/ROS2Dev'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robousr/.nvm/versions/node/v20.16.0/bin'), ('PYENV_SHELL', 'bash'), ('NVM_INC', '/home/robousr/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '2100'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIT_PS1_SHOWUNTRACKEDFILES', 'true'), ('COLORTERM', 'truecolor'), ('GIT_PS1_SHOWSTASHSTATE', 'true'), ('NVM_DIR', '/home/robousr/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robousr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robousr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robolab-vm:@/tmp/.ICE-unix/1570,unix/robolab-vm:/tmp/.ICE-unix/1570'), ('GIT_PS1_SHOWDIRTYSTATE', 'true'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8cdc1b65_0115_46ea_9881_00f23f9fc32a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2B30W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', 'true'), ('NVM_CD_FLAGS', ''), ('PYENV_ROOT', '/home/robousr/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.066653] (apriltag_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.079670] (apriltag_draw) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099653] (-) TimerEvent: {}
+[0.207582] (-) TimerEvent: {}
+[0.309062] (-) TimerEvent: {}
+[0.353303] (apriltag_detector) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)\n'}
+[0.386444] (apriltag_draw) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.389644] (apriltag_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.392723] (apriltag_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.398858] (apriltag_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.412125] (apriltag_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.412282] (-) TimerEvent: {}
+[0.418135] (apriltag_draw) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.421867] (apriltag_draw) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.422077] (apriltag_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.426243] (apriltag_draw) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.434891] (apriltag_draw) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.448222] (apriltag_draw) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.460176] (apriltag_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.478898] (apriltag_draw) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.483149] (apriltag_draw) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.493303] (apriltag_detector) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)\n'}
+[0.494192] (apriltag_detector) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[0.495017] (apriltag_detector) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[0.498069] (apriltag_detector) StdoutLine: {'line': b'-- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)\n'}
+[0.506720] (apriltag_detector) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)\n'}
+[0.509570] (apriltag_detector) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)\n'}
+[0.512911] (-) TimerEvent: {}
+[0.609787] (apriltag_draw) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.613170] (-) TimerEvent: {}
+[0.658103] (apriltag_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.664172] (apriltag_draw) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.668379] (apriltag_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[0.671761] (apriltag_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector\n'}
+[0.689357] (apriltag_draw) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.714858] (-) TimerEvent: {}
+[0.729636] (apriltag_detector) StdoutLine: {'line': b'Built target apriltag_detector\n'}
+[0.748990] (apriltag_detector) CommandEnded: {'returncode': 0}
+[0.757238] (apriltag_draw) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.760272] (apriltag_draw) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)\n'}
+[0.786108] (apriltag_draw) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)\n'}
+[0.786287] (apriltag_draw) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[0.786360] (apriltag_draw) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[0.786827] (apriltag_draw) StdoutLine: {'line': b'-- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)\n'}
+[0.787832] (apriltag_detector) JobProgress: {'identifier': 'apriltag_detector', 'progress': 'install'}
+[0.790036] (apriltag_draw) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[0.791824] (apriltag_draw) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)\n'}
+[0.793675] (apriltag_draw) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[0.795483] (apriltag_draw) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)\n'}
+[0.805929] (apriltag_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector'], 'cwd': '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robousr'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robousr'), ('OLDPWD', '/home/robousr/ROS2Dev'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robousr/.nvm/versions/node/v20.16.0/bin'), ('PYENV_SHELL', 'bash'), ('NVM_INC', '/home/robousr/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '2100'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIT_PS1_SHOWUNTRACKEDFILES', 'true'), ('COLORTERM', 'truecolor'), ('GIT_PS1_SHOWSTASHSTATE', 'true'), ('NVM_DIR', '/home/robousr/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robousr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robousr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robolab-vm:@/tmp/.ICE-unix/1570,unix/robolab-vm:/tmp/.ICE-unix/1570'), ('GIT_PS1_SHOWDIRTYSTATE', 'true'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8cdc1b65_0115_46ea_9881_00f23f9fc32a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2B30W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', 'true'), ('NVM_CD_FLAGS', ''), ('PYENV_ROOT', '/home/robousr/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.815818] (-) TimerEvent: {}
+[0.817801] (apriltag_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.817974] (apriltag_detector) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/environment/library_path.sh\n'}
+[0.818744] (apriltag_detector) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/environment/library_path.dsv\n'}
+[0.818899] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/include\n'}
+[0.819060] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/include/apriltag_detector\n'}
+[0.819212] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/include/apriltag_detector/detector.hpp\n'}
+[0.819364] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector//launch\n'}
+[0.819517] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector//launch/detector_only.launch.py\n'}
+[0.819715] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector//launch/detect.launch.py\n'}
+[0.819869] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/ament_index/resource_index/package_run_dependencies/apriltag_detector\n'}
+[0.821695] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/ament_index/resource_index/parent_prefix_path/apriltag_detector\n'}
+[0.821889] (apriltag_detector) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/environment/ament_prefix_path.sh\n'}
+[0.822068] (apriltag_detector) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/environment/ament_prefix_path.dsv\n'}
+[0.822224] (apriltag_detector) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/environment/path.sh\n'}
+[0.824242] (apriltag_detector) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/environment/path.dsv\n'}
+[0.824338] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/local_setup.bash\n'}
+[0.824408] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/local_setup.sh\n'}
+[0.824472] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/local_setup.zsh\n'}
+[0.824536] (apriltag_detector) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/local_setup.dsv\n'}
+[0.824613] (apriltag_detector) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/package.dsv\n'}
+[0.824681] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/ament_index/resource_index/packages/apriltag_detector\n'}
+[0.824752] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detector_exportExport.cmake\n'}
+[0.824833] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.824897] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detectorConfig.cmake\n'}
+[0.824959] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detectorConfig-version.cmake\n'}
+[0.825020] (apriltag_detector) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/package.xml\n'}
+[0.827651] (apriltag_detector) CommandEnded: {'returncode': 0}
+[0.897335] (apriltag_detector) JobEnded: {'identifier': 'apriltag_detector', 'rc': 0}
+[0.898188] (apriltag_detector_mit) JobStarted: {'identifier': 'apriltag_detector_mit'}
+[0.907614] (apriltag_detector_mit) JobProgress: {'identifier': 'apriltag_detector_mit', 'progress': 'cmake'}
+[0.910461] (apriltag_detector_mit) JobProgress: {'identifier': 'apriltag_detector_mit', 'progress': 'build'}
+[0.910829] (apriltag_detector_mit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit', '--', '-j2', '-l2'], 'cwd': '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robousr'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robousr'), ('OLDPWD', '/home/robousr/ROS2Dev'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robousr/.nvm/versions/node/v20.16.0/bin'), ('PYENV_SHELL', 'bash'), ('NVM_INC', '/home/robousr/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '2100'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIT_PS1_SHOWUNTRACKEDFILES', 'true'), ('COLORTERM', 'truecolor'), ('GIT_PS1_SHOWSTASHSTATE', 'true'), ('NVM_DIR', '/home/robousr/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robousr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robousr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robolab-vm:@/tmp/.ICE-unix/1570,unix/robolab-vm:/tmp/.ICE-unix/1570'), ('GIT_PS1_SHOWDIRTYSTATE', 'true'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8cdc1b65_0115_46ea_9881_00f23f9fc32a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2B30W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', 'true'), ('NVM_CD_FLAGS', ''), ('PYENV_ROOT', '/home/robousr/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/opt/ros/humble')]), 'shell': False}
+[0.916163] (-) TimerEvent: {}
+[0.967303] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.984881] (apriltag_draw) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.016932] (-) TimerEvent: {}
+[1.019757] (apriltag_draw) StdoutLine: {'line': b'-- Generating done\n'}
+[1.027879] (apriltag_draw) StdoutLine: {'line': b'-- Build files have been written to: /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw\n'}
+[1.078069] (apriltag_draw) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_draw\x1b[0m\n'}
+[1.117885] (-) TimerEvent: {}
+[1.169046] (apriltag_draw) StdoutLine: {'line': b'[ 50%] Built target apriltag_draw\n'}
+[1.184787] (apriltag_draw) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_draw_node\x1b[0m\n'}
+[1.213791] (apriltag_draw) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable apriltag_draw_node\x1b[0m\n'}
+[1.227466] (-) TimerEvent: {}
+[1.284816] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.311569] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core \n'}
+[1.331051] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core imgproc \n'}
+[1.331215] (-) TimerEvent: {}
+[1.331408] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found apriltag_detector: 1.0.0 (/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/cmake)\n'}
+[1.331470] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)\n'}
+[1.353762] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.356770] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.367046] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.381099] (apriltag_detector_mit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.396604] (apriltag_detector_mit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.431386] (-) TimerEvent: {}
+[1.448126] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.484159] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.518237] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.520924] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.536089] (-) TimerEvent: {}
+[1.643439] (-) TimerEvent: {}
+[1.659093] (apriltag_detector_mit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.740171] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.747480] (-) TimerEvent: {}
+[1.764977] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)\n'}
+[1.765137] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.765188] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[1.765233] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)\n'}
+[1.765335] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[1.765416] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)\n'}
+[1.765861] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[1.766310] (apriltag_detector_mit) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)\n'}
+[1.847634] (-) TimerEvent: {}
+[1.917728] (apriltag_detector_mit) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.945988] (apriltag_detector_mit) StdoutLine: {'line': b'-- Generating done\n'}
+[1.948588] (-) TimerEvent: {}
+[1.956995] (apriltag_detector_mit) StdoutLine: {'line': b'-- Build files have been written to: /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit\n'}
+[1.986651] (apriltag_detector_mit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_detector_mit\x1b[0m\n'}
+[2.034402] (apriltag_detector_mit) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_detector_mit.dir/src/detector.cpp.o\x1b[0m\n'}
+[2.048980] (-) TimerEvent: {}
+[2.073059] (apriltag_draw) StdoutLine: {'line': b'[100%] Built target apriltag_draw_node\n'}
+[2.094674] (apriltag_draw) CommandEnded: {'returncode': 0}
+[2.141890] (apriltag_draw) JobProgress: {'identifier': 'apriltag_draw', 'progress': 'install'}
+[2.145629] (apriltag_draw) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw'], 'cwd': '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robousr'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robousr'), ('OLDPWD', '/home/robousr/ROS2Dev'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robousr/.nvm/versions/node/v20.16.0/bin'), ('PYENV_SHELL', 'bash'), ('NVM_INC', '/home/robousr/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '2100'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIT_PS1_SHOWUNTRACKEDFILES', 'true'), ('COLORTERM', 'truecolor'), ('GIT_PS1_SHOWSTASHSTATE', 'true'), ('NVM_DIR', '/home/robousr/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robousr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robousr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robolab-vm:@/tmp/.ICE-unix/1570,unix/robolab-vm:/tmp/.ICE-unix/1570'), ('GIT_PS1_SHOWDIRTYSTATE', 'true'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8cdc1b65_0115_46ea_9881_00f23f9fc32a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2B30W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_draw'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', 'true'), ('NVM_CD_FLAGS', ''), ('PYENV_ROOT', '/home/robousr/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.149375] (-) TimerEvent: {}
+[2.154683] (apriltag_draw) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.154991] (apriltag_draw) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/lib/apriltag_draw/apriltag_draw_node\n'}
+[2.156325] (apriltag_draw) StdoutLine: {'line': b'-- Set runtime path of "/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/lib/apriltag_draw/apriltag_draw_node" to ""\n'}
+[2.156708] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/lib/libapriltag_draw.so\n'}
+[2.156822] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw//launch\n'}
+[2.156972] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw//launch/draw.launch.py\n'}
+[2.157051] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw//launch/composable.launch.py\n'}
+[2.157119] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/ament_index/resource_index/package_run_dependencies/apriltag_draw\n'}
+[2.157254] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/ament_index/resource_index/parent_prefix_path/apriltag_draw\n'}
+[2.157331] (apriltag_draw) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/environment/ament_prefix_path.sh\n'}
+[2.159105] (apriltag_draw) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/environment/ament_prefix_path.dsv\n'}
+[2.159378] (apriltag_draw) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/environment/path.sh\n'}
+[2.159456] (apriltag_draw) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/environment/path.dsv\n'}
+[2.159528] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/local_setup.bash\n'}
+[2.159597] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/local_setup.sh\n'}
+[2.159659] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/local_setup.zsh\n'}
+[2.159754] (apriltag_draw) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/local_setup.dsv\n'}
+[2.159818] (apriltag_draw) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/package.dsv\n'}
+[2.160068] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/ament_index/resource_index/packages/apriltag_draw\n'}
+[2.160141] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/ament_index/resource_index/rclcpp_components/apriltag_draw\n'}
+[2.161872] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/cmake/apriltag_drawConfig.cmake\n'}
+[2.162077] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/cmake/apriltag_drawConfig-version.cmake\n'}
+[2.162221] (apriltag_draw) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_draw/share/apriltag_draw/package.xml\n'}
+[2.164208] (apriltag_draw) CommandEnded: {'returncode': 0}
+[2.243323] (apriltag_draw) JobEnded: {'identifier': 'apriltag_draw', 'rc': 0}
+[2.249711] (-) TimerEvent: {}
+[2.250128] (apriltag_detector_umich) JobStarted: {'identifier': 'apriltag_detector_umich'}
+[2.252968] (apriltag_detector_umich) JobProgress: {'identifier': 'apriltag_detector_umich', 'progress': 'cmake'}
+[2.258848] (apriltag_detector_umich) JobProgress: {'identifier': 'apriltag_detector_umich', 'progress': 'build'}
+[2.259014] (apriltag_detector_umich) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_umich', '--', '-j2', '-l2'], 'cwd': '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_umich', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robousr'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robousr'), ('OLDPWD', '/home/robousr/ROS2Dev'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robousr/.nvm/versions/node/v20.16.0/bin'), ('PYENV_SHELL', 'bash'), ('NVM_INC', '/home/robousr/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '2100'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIT_PS1_SHOWUNTRACKEDFILES', 'true'), ('COLORTERM', 'truecolor'), ('GIT_PS1_SHOWSTASHSTATE', 'true'), ('NVM_DIR', '/home/robousr/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robousr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robousr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robolab-vm:@/tmp/.ICE-unix/1570,unix/robolab-vm:/tmp/.ICE-unix/1570'), ('GIT_PS1_SHOWDIRTYSTATE', 'true'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8cdc1b65_0115_46ea_9881_00f23f9fc32a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2B30W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_umich'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', 'true'), ('NVM_CD_FLAGS', ''), ('PYENV_ROOT', '/home/robousr/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/opt/ros/humble')]), 'shell': False}
+[2.300730] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.350540] (-) TimerEvent: {}
+[2.451527] (-) TimerEvent: {}
+[2.553572] (-) TimerEvent: {}
+[2.609399] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.624461] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found apriltag_detector: 1.0.0 (/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/cmake)\n'}
+[2.624728] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)\n'}
+[2.656025] (-) TimerEvent: {}
+[2.659110] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.659313] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.666325] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.680785] (apriltag_detector_umich) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.698053] (apriltag_detector_umich) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.742060] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.756160] (-) TimerEvent: {}
+[2.787504] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[2.821863] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.823153] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.856593] (-) TimerEvent: {}
+[2.959091] (-) TimerEvent: {}
+[2.968808] (apriltag_detector_umich) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.048021] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[3.060144] (-) TimerEvent: {}
+[3.079004] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)\n'}
+[3.079335] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[3.079452] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[3.079673] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)\n'}
+[3.080074] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[3.081751] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)\n'}
+[3.082054] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[3.082142] (apriltag_detector_umich) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)\n'}
+[3.160745] (-) TimerEvent: {}
+[3.257155] (apriltag_detector_umich) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.261628] (-) TimerEvent: {}
+[3.297111] (apriltag_detector_umich) StdoutLine: {'line': b'-- Generating done\n'}
+[3.305134] (apriltag_detector_umich) StdoutLine: {'line': b'-- Build files have been written to: /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_umich\n'}
+[3.348733] (apriltag_detector_umich) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_detector_umich\x1b[0m\n'}
+[3.362134] (-) TimerEvent: {}
+[3.375937] (apriltag_detector_umich) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_detector_umich.dir/src/detector.cpp.o\x1b[0m\n'}
+[3.462649] (-) TimerEvent: {}
+[3.567281] (-) TimerEvent: {}
+[3.668232] (-) TimerEvent: {}
+[3.768583] (-) TimerEvent: {}
+[3.869023] (-) TimerEvent: {}
+[3.969753] (-) TimerEvent: {}
+[4.073649] (-) TimerEvent: {}
+[4.174180] (-) TimerEvent: {}
+[4.274688] (-) TimerEvent: {}
+[4.375139] (-) TimerEvent: {}
+[4.475734] (-) TimerEvent: {}
+[4.576102] (-) TimerEvent: {}
+[4.676574] (-) TimerEvent: {}
+[4.777938] (-) TimerEvent: {}
+[4.878304] (-) TimerEvent: {}
+[4.978608] (-) TimerEvent: {}
+[5.079798] (-) TimerEvent: {}
+[5.180274] (-) TimerEvent: {}
+[5.282834] (-) TimerEvent: {}
+[5.383185] (-) TimerEvent: {}
+[5.483563] (-) TimerEvent: {}
+[5.583938] (-) TimerEvent: {}
+[5.684413] (-) TimerEvent: {}
+[5.784948] (-) TimerEvent: {}
+[5.885395] (-) TimerEvent: {}
+[5.988158] (-) TimerEvent: {}
+[6.091329] (-) TimerEvent: {}
+[6.191734] (-) TimerEvent: {}
+[6.292162] (-) TimerEvent: {}
+[6.393861] (-) TimerEvent: {}
+[6.494302] (-) TimerEvent: {}
+[6.596985] (-) TimerEvent: {}
+[6.697313] (-) TimerEvent: {}
+[6.797697] (-) TimerEvent: {}
+[6.898310] (-) TimerEvent: {}
+[6.998899] (-) TimerEvent: {}
+[7.099918] (-) TimerEvent: {}
+[7.200531] (-) TimerEvent: {}
+[7.301205] (-) TimerEvent: {}
+[7.402288] (-) TimerEvent: {}
+[7.504243] (-) TimerEvent: {}
+[7.604603] (-) TimerEvent: {}
+[7.705020] (-) TimerEvent: {}
+[7.805544] (-) TimerEvent: {}
+[7.907984] (-) TimerEvent: {}
+[8.008367] (-) TimerEvent: {}
+[8.108698] (-) TimerEvent: {}
+[8.209156] (-) TimerEvent: {}
+[8.309603] (-) TimerEvent: {}
+[8.410048] (-) TimerEvent: {}
+[8.511999] (-) TimerEvent: {}
+[8.612571] (-) TimerEvent: {}
+[8.712949] (-) TimerEvent: {}
+[8.813396] (-) TimerEvent: {}
+[8.915880] (-) TimerEvent: {}
+[9.016408] (-) TimerEvent: {}
+[9.116895] (-) TimerEvent: {}
+[9.217314] (-) TimerEvent: {}
+[9.317962] (-) TimerEvent: {}
+[9.420647] (-) TimerEvent: {}
+[9.521088] (-) TimerEvent: {}
+[9.621539] (-) TimerEvent: {}
+[9.722304] (-) TimerEvent: {}
+[9.822922] (-) TimerEvent: {}
+[9.924010] (-) TimerEvent: {}
+[10.024525] (-) TimerEvent: {}
+[10.126865] (-) TimerEvent: {}
+[10.227291] (-) TimerEvent: {}
+[10.328011] (-) TimerEvent: {}
+[10.430745] (-) TimerEvent: {}
+[10.534229] (-) TimerEvent: {}
+[10.642422] (-) TimerEvent: {}
+[10.723925] (apriltag_detector_umich) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_detector_umich.so\x1b[0m\n'}
+[10.742840] (-) TimerEvent: {}
+[10.844974] (-) TimerEvent: {}
+[10.933340] (apriltag_detector_umich) StdoutLine: {'line': b'[ 42%] Built target apriltag_detector_umich\n'}
+[10.947958] (-) TimerEvent: {}
+[10.950209] (apriltag_detector_umich) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_detector_umich_component\x1b[0m\n'}
+[10.977050] (apriltag_detector_umich) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_detector_umich_component.dir/src/component.cpp.o\x1b[0m\n'}
+[11.048486] (-) TimerEvent: {}
+[11.153597] (-) TimerEvent: {}
+[11.254544] (-) TimerEvent: {}
+[11.355233] (-) TimerEvent: {}
+[11.456057] (-) TimerEvent: {}
+[11.558343] (-) TimerEvent: {}
+[11.659623] (-) TimerEvent: {}
+[11.760105] (-) TimerEvent: {}
+[11.860991] (-) TimerEvent: {}
+[11.961699] (-) TimerEvent: {}
+[12.062897] (-) TimerEvent: {}
+[12.172532] (-) TimerEvent: {}
+[12.207724] (apriltag_detector_mit) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_detector_mit.so\x1b[0m\n'}
+[12.282780] (-) TimerEvent: {}
+[12.385031] (-) TimerEvent: {}
+[12.438808] (apriltag_detector_mit) StdoutLine: {'line': b'[ 33%] Built target apriltag_detector_mit\n'}
+[12.454836] (apriltag_detector_mit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_detector_mit_component\x1b[0m\n'}
+[12.483169] (apriltag_detector_mit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_detector_mit_component.dir/src/component.cpp.o\x1b[0m\n'}
+[12.485228] (-) TimerEvent: {}
+[12.589708] (-) TimerEvent: {}
+[12.695646] (-) TimerEvent: {}
+[12.795993] (-) TimerEvent: {}
+[12.897484] (-) TimerEvent: {}
+[13.017472] (-) TimerEvent: {}
+[13.122918] (-) TimerEvent: {}
+[13.227509] (-) TimerEvent: {}
+[13.330371] (-) TimerEvent: {}
+[13.437593] (-) TimerEvent: {}
+[13.539500] (-) TimerEvent: {}
+[13.640251] (-) TimerEvent: {}
+[13.747573] (-) TimerEvent: {}
+[13.857482] (-) TimerEvent: {}
+[13.959037] (-) TimerEvent: {}
+[14.059701] (-) TimerEvent: {}
+[14.160374] (-) TimerEvent: {}
+[14.261002] (-) TimerEvent: {}
+[14.362019] (-) TimerEvent: {}
+[14.463046] (-) TimerEvent: {}
+[14.565096] (-) TimerEvent: {}
+[14.666543] (-) TimerEvent: {}
+[14.768324] (-) TimerEvent: {}
+[14.870177] (-) TimerEvent: {}
+[14.980610] (-) TimerEvent: {}
+[15.085693] (-) TimerEvent: {}
+[15.192980] (-) TimerEvent: {}
+[15.297918] (-) TimerEvent: {}
+[15.399381] (-) TimerEvent: {}
+[15.507441] (-) TimerEvent: {}
+[15.613095] (-) TimerEvent: {}
+[15.715078] (-) TimerEvent: {}
+[15.818709] (-) TimerEvent: {}
+[15.925931] (-) TimerEvent: {}
+[16.033051] (-) TimerEvent: {}
+[16.135958] (-) TimerEvent: {}
+[16.238079] (-) TimerEvent: {}
+[16.346599] (-) TimerEvent: {}
+[16.452018] (-) TimerEvent: {}
+[16.553238] (-) TimerEvent: {}
+[16.653683] (-) TimerEvent: {}
+[16.756056] (-) TimerEvent: {}
+[16.856635] (-) TimerEvent: {}
+[16.957233] (-) TimerEvent: {}
+[17.057727] (-) TimerEvent: {}
+[17.158153] (-) TimerEvent: {}
+[17.258632] (-) TimerEvent: {}
+[17.361623] (-) TimerEvent: {}
+[17.462222] (-) TimerEvent: {}
+[17.563012] (-) TimerEvent: {}
+[17.663711] (-) TimerEvent: {}
+[17.764216] (-) TimerEvent: {}
+[17.870533] (-) TimerEvent: {}
+[17.978836] (-) TimerEvent: {}
+[18.087950] (-) TimerEvent: {}
+[18.171159] (apriltag_detector_umich) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_detector_umich_component.so\x1b[0m\n'}
+[18.188844] (-) TimerEvent: {}
+[18.289331] (-) TimerEvent: {}
+[18.389993] (-) TimerEvent: {}
+[18.478259] (apriltag_detector_umich) StdoutLine: {'line': b'[ 71%] Built target apriltag_detector_umich_component\n'}
+[18.490629] (-) TimerEvent: {}
+[18.493711] (apriltag_detector_umich) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_detector_umich_node\x1b[0m\n'}
+[18.517086] (apriltag_detector_umich) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_detector_umich_node.dir/src/node.cpp.o\x1b[0m\n'}
+[18.595793] (-) TimerEvent: {}
+[18.698675] (-) TimerEvent: {}
+[18.808064] (-) TimerEvent: {}
+[18.912682] (-) TimerEvent: {}
+[19.013393] (-) TimerEvent: {}
+[19.114130] (-) TimerEvent: {}
+[19.214845] (-) TimerEvent: {}
+[19.317917] (-) TimerEvent: {}
+[19.421956] (-) TimerEvent: {}
+[19.525262] (-) TimerEvent: {}
+[19.627383] (-) TimerEvent: {}
+[19.738117] (-) TimerEvent: {}
+[19.795374] (apriltag_detector_mit) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_detector_mit_component.so\x1b[0m\n'}
+[19.842693] (-) TimerEvent: {}
+[19.948004] (-) TimerEvent: {}
+[20.048751] (-) TimerEvent: {}
+[20.154951] (-) TimerEvent: {}
+[20.197023] (apriltag_detector_mit) StdoutLine: {'line': b'[ 66%] Built target apriltag_detector_mit_component\n'}
+[20.210691] (apriltag_detector_mit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag_detector_mit_node\x1b[0m\n'}
+[20.231149] (apriltag_detector_mit) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_detector_mit_node.dir/src/node.cpp.o\x1b[0m\n'}
+[20.258060] (-) TimerEvent: {}
+[20.367856] (-) TimerEvent: {}
+[20.471553] (-) TimerEvent: {}
+[20.573087] (-) TimerEvent: {}
+[20.682316] (-) TimerEvent: {}
+[20.788080] (-) TimerEvent: {}
+[20.892960] (-) TimerEvent: {}
+[20.995988] (-) TimerEvent: {}
+[21.097693] (-) TimerEvent: {}
+[21.207941] (-) TimerEvent: {}
+[21.312776] (-) TimerEvent: {}
+[21.413539] (-) TimerEvent: {}
+[21.518140] (-) TimerEvent: {}
+[21.620699] (-) TimerEvent: {}
+[21.732819] (-) TimerEvent: {}
+[21.848581] (-) TimerEvent: {}
+[21.950040] (-) TimerEvent: {}
+[22.050840] (-) TimerEvent: {}
+[22.151685] (-) TimerEvent: {}
+[22.254737] (-) TimerEvent: {}
+[22.312702] (apriltag_detector_umich) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable apriltag_detector_umich_node\x1b[0m\n'}
+[22.363588] (-) TimerEvent: {}
+[22.471348] (-) TimerEvent: {}
+[22.572711] (-) TimerEvent: {}
+[22.677721] (-) TimerEvent: {}
+[22.782964] (-) TimerEvent: {}
+[22.832577] (apriltag_detector_umich) StdoutLine: {'line': b'[100%] Built target apriltag_detector_umich_node\n'}
+[22.850124] (apriltag_detector_umich) CommandEnded: {'returncode': 0}
+[22.883320] (-) TimerEvent: {}
+[22.905094] (apriltag_detector_umich) JobProgress: {'identifier': 'apriltag_detector_umich', 'progress': 'install'}
+[22.905946] (apriltag_detector_umich) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_umich'], 'cwd': '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_umich', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robousr'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robousr'), ('OLDPWD', '/home/robousr/ROS2Dev'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robousr/.nvm/versions/node/v20.16.0/bin'), ('PYENV_SHELL', 'bash'), ('NVM_INC', '/home/robousr/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '2100'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIT_PS1_SHOWUNTRACKEDFILES', 'true'), ('COLORTERM', 'truecolor'), ('GIT_PS1_SHOWSTASHSTATE', 'true'), ('NVM_DIR', '/home/robousr/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robousr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robousr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robolab-vm:@/tmp/.ICE-unix/1570,unix/robolab-vm:/tmp/.ICE-unix/1570'), ('GIT_PS1_SHOWDIRTYSTATE', 'true'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8cdc1b65_0115_46ea_9881_00f23f9fc32a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2B30W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_umich'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', 'true'), ('NVM_CD_FLAGS', ''), ('PYENV_ROOT', '/home/robousr/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/opt/ros/humble')]), 'shell': False}
+[22.918589] (apriltag_detector_umich) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.923411] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/plugins.xml\n'}
+[22.923981] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/library_path.sh\n'}
+[22.924222] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/library_path.dsv\n'}
+[22.924438] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/apriltag_detector_umich/apriltag_detector_umich_node\n'}
+[22.924514] (apriltag_detector_umich) StdoutLine: {'line': b'-- Set runtime path of "/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/apriltag_detector_umich/apriltag_detector_umich_node" to ""\n'}
+[22.924853] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/libapriltag_detector_umich.so\n'}
+[22.926791] (apriltag_detector_umich) StdoutLine: {'line': b'-- Set runtime path of "/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/libapriltag_detector_umich.so" to ""\n'}
+[22.927417] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/libapriltag_detector_umich_component.so\n'}
+[22.933051] (apriltag_detector_umich) StdoutLine: {'line': b'-- Set runtime path of "/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/libapriltag_detector_umich_component.so" to ""\n'}
+[22.933232] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/include\n'}
+[22.933419] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/include/apriltag_detector_umich\n'}
+[22.933604] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/ament_index/resource_index/package_run_dependencies/apriltag_detector_umich\n'}
+[22.933763] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/ament_index/resource_index/parent_prefix_path/apriltag_detector_umich\n'}
+[22.933960] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/ament_prefix_path.sh\n'}
+[22.934116] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/ament_prefix_path.dsv\n'}
+[22.934269] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/path.sh\n'}
+[22.934423] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/path.dsv\n'}
+[22.934626] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/local_setup.bash\n'}
+[22.934788] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/local_setup.sh\n'}
+[22.934943] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/local_setup.zsh\n'}
+[22.935182] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/local_setup.dsv\n'}
+[22.935266] (apriltag_detector_umich) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/package.dsv\n'}
+[22.939963] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/ament_index/resource_index/packages/apriltag_detector_umich\n'}
+[22.940435] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/ament_index/resource_index/apriltag_detector__pluginlib__plugin/apriltag_detector_umich\n'}
+[22.940575] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/apriltag_detector_umich_exportExport.cmake\n'}
+[22.940926] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/apriltag_detector_umich_exportExport-noconfig.cmake\n'}
+[22.941075] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/ament_index/resource_index/rclcpp_components/apriltag_detector_umich\n'}
+[22.941250] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.941437] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.941908] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/apriltag_detector_umichConfig.cmake\n'}
+[22.942011] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/apriltag_detector_umichConfig-version.cmake\n'}
+[22.942114] (apriltag_detector_umich) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/package.xml\n'}
+[22.942728] (apriltag_detector_umich) CommandEnded: {'returncode': 0}
+[22.984265] (-) TimerEvent: {}
+[23.043020] (apriltag_detector_umich) JobEnded: {'identifier': 'apriltag_detector_umich', 'rc': 0}
+[23.084510] (-) TimerEvent: {}
+[23.187433] (-) TimerEvent: {}
+[23.288217] (-) TimerEvent: {}
+[23.388984] (-) TimerEvent: {}
+[23.489616] (-) TimerEvent: {}
+[23.590492] (-) TimerEvent: {}
+[23.691067] (-) TimerEvent: {}
+[23.791914] (-) TimerEvent: {}
+[23.816733] (apriltag_detector_mit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable apriltag_detector_mit_node\x1b[0m\n'}
+[23.892285] (-) TimerEvent: {}
+[23.993106] (-) TimerEvent: {}
+[24.093889] (-) TimerEvent: {}
+[24.194499] (-) TimerEvent: {}
+[24.295169] (-) TimerEvent: {}
+[24.299677] (apriltag_detector_mit) StdoutLine: {'line': b'[100%] Built target apriltag_detector_mit_node\n'}
+[24.316155] (apriltag_detector_mit) CommandEnded: {'returncode': 0}
+[24.370816] (apriltag_detector_mit) JobProgress: {'identifier': 'apriltag_detector_mit', 'progress': 'install'}
+[24.370920] (apriltag_detector_mit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit'], 'cwd': '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robousr'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robousr'), ('OLDPWD', '/home/robousr/ROS2Dev'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robousr/.nvm/versions/node/v20.16.0/bin'), ('PYENV_SHELL', 'bash'), ('NVM_INC', '/home/robousr/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '2100'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIT_PS1_SHOWUNTRACKEDFILES', 'true'), ('COLORTERM', 'truecolor'), ('GIT_PS1_SHOWSTASHSTATE', 'true'), ('NVM_DIR', '/home/robousr/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robousr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robousr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robolab-vm:@/tmp/.ICE-unix/1570,unix/robolab-vm:/tmp/.ICE-unix/1570'), ('GIT_PS1_SHOWDIRTYSTATE', 'true'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8cdc1b65_0115_46ea_9881_00f23f9fc32a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2B30W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_mit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', 'true'), ('NVM_CD_FLAGS', ''), ('PYENV_ROOT', '/home/robousr/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector:/opt/ros/humble')]), 'shell': False}
+[24.379965] (apriltag_detector_mit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.380164] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/plugins.xml\n'}
+[24.380220] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/library_path.sh\n'}
+[24.381329] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/library_path.dsv\n'}
+[24.381701] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/lib/apriltag_detector_mit/apriltag_detector_mit_node\n'}
+[24.381832] (apriltag_detector_mit) StdoutLine: {'line': b'-- Set runtime path of "/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/lib/apriltag_detector_mit/apriltag_detector_mit_node" to ""\n'}
+[24.381894] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/lib/libapriltag_detector_mit.so\n'}
+[24.384078] (apriltag_detector_mit) StdoutLine: {'line': b'-- Set runtime path of "/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/lib/libapriltag_detector_mit.so" to ""\n'}
+[24.384291] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/lib/libapriltag_detector_mit_component.so\n'}
+[24.386652] (apriltag_detector_mit) StdoutLine: {'line': b'-- Set runtime path of "/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/lib/libapriltag_detector_mit_component.so" to ""\n'}
+[24.387004] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/include\n'}
+[24.387241] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/include/apriltag_detector_mit\n'}
+[24.387571] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit//launch\n'}
+[24.387736] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit//launch/detector.launch.py\n'}
+[24.387826] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/ament_index/resource_index/package_run_dependencies/apriltag_detector_mit\n'}
+[24.387931] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/ament_index/resource_index/parent_prefix_path/apriltag_detector_mit\n'}
+[24.388056] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/ament_prefix_path.sh\n'}
+[24.388493] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/ament_prefix_path.dsv\n'}
+[24.388781] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/path.sh\n'}
+[24.389345] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/environment/path.dsv\n'}
+[24.389699] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/local_setup.bash\n'}
+[24.389754] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/local_setup.sh\n'}
+[24.389890] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/local_setup.zsh\n'}
+[24.389945] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/local_setup.dsv\n'}
+[24.389990] (apriltag_detector_mit) StdoutLine: {'line': b'-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/package.dsv\n'}
+[24.390152] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/ament_index/resource_index/packages/apriltag_detector_mit\n'}
+[24.390334] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/ament_index/resource_index/apriltag_detector__pluginlib__plugin/apriltag_detector_mit\n'}
+[24.390523] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/apriltag_detector_mit_exportExport.cmake\n'}
+[24.390741] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/apriltag_detector_mit_exportExport-noconfig.cmake\n'}
+[24.390812] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/ament_index/resource_index/rclcpp_components/apriltag_detector_mit\n'}
+[24.391053] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.391143] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.391206] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/apriltag_detector_mitConfig.cmake\n'}
+[24.391265] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/cmake/apriltag_detector_mitConfig-version.cmake\n'}
+[24.391319] (apriltag_detector_mit) StdoutLine: {'line': b'-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_mit/share/apriltag_detector_mit/package.xml\n'}
+[24.394311] (apriltag_detector_mit) CommandEnded: {'returncode': 0}
+[24.395455] (-) TimerEvent: {}
+[24.466081] (apriltag_detector_mit) JobEnded: {'identifier': 'apriltag_detector_mit', 'rc': 0}
+[24.467344] (-) EventReactorShutdown: {}

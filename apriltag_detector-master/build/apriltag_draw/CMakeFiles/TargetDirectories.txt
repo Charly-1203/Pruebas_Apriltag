@@ -1,0 +1,11 @@
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw/CMakeFiles/uninstall.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw/CMakeFiles/apriltag_draw_uninstall.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw/CMakeFiles/apriltag_draw.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw/CMakeFiles/apriltag_draw_node.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw/CMakeFiles/test.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw/CMakeFiles/edit_cache.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw/CMakeFiles/rebuild_cache.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw/CMakeFiles/list_install_components.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw/CMakeFiles/install.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw/CMakeFiles/install/local.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_draw/CMakeFiles/install/strip.dir

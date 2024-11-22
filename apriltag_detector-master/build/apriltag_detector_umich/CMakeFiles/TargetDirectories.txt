@@ -1,0 +1,12 @@
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/uninstall.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/apriltag_detector_umich_uninstall.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/apriltag_detector_umich.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/apriltag_detector_umich_component.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/apriltag_detector_umich_node.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/test.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/edit_cache.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/rebuild_cache.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/list_install_components.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/install.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/install/local.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector_umich/CMakeFiles/install/strip.dir

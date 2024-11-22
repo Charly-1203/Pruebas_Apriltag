@@ -1,0 +1,63 @@
+[0.052s] Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector
+[0.643s] -- The C compiler identification is GNU 11.4.0
+[1.108s] -- The CXX compiler identification is GNU 11.4.0
+[1.147s] -- Detecting C compiler ABI info
+[1.420s] -- Detecting C compiler ABI info - done
+[1.424s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.425s] -- Detecting C compile features
+[1.427s] -- Detecting C compile features - done
+[1.440s] -- Detecting CXX compiler ABI info
+[1.700s] -- Detecting CXX compiler ABI info - done
+[1.724s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.725s] -- Detecting CXX compile features
+[1.725s] -- Detecting CXX compile features - done
+[1.751s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.080s] -- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[3.541s] -- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)
+[3.721s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.746s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.784s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.849s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.921s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.107s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.256s] -- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[4.266s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[4.275s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[4.283s] -- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[4.291s] -- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[4.299s] -- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[4.733s] -- Configuring done
+[4.743s] -- Generating done
+[4.749s] -- Build files have been written to: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector
+[4.767s] Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/apriltag_detector -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector
+[4.779s] Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector -- -j2 -l2
+[4.919s] Built target apriltag_detector
+[4.957s] Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector -- -j2 -l2
+[5.089s] Invoking command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector
+[5.117s] -- Install configuration: ""
+[5.118s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/environment/library_path.sh
+[5.119s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/environment/library_path.dsv
+[5.120s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/include
+[5.120s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/include/apriltag_detector
+[5.120s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/include/apriltag_detector/detector.hpp
+[5.132s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector//launch
+[5.132s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector//launch/detector_only.launch.py
+[5.133s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector//launch/detect.launch.py
+[5.135s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/ament_index/resource_index/package_run_dependencies/apriltag_detector
+[5.137s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/ament_index/resource_index/parent_prefix_path/apriltag_detector
+[5.138s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/environment/ament_prefix_path.sh
+[5.139s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/environment/ament_prefix_path.dsv
+[5.142s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/environment/path.sh
+[5.142s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/environment/path.dsv
+[5.143s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/local_setup.bash
+[5.145s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/local_setup.sh
+[5.145s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/local_setup.zsh
+[5.147s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/local_setup.dsv
+[5.147s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.dsv
+[5.150s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/ament_index/resource_index/packages/apriltag_detector
+[5.151s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detector_exportExport.cmake
+[5.153s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/cmake/ament_cmake_export_targets-extras.cmake
+[5.154s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detectorConfig.cmake
+[5.156s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detectorConfig-version.cmake
+[5.157s] -- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/install/apriltag_detector/share/apriltag_detector/package.xml
+[5.164s] Invoked command in '/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector

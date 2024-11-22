@@ -1,0 +1,71 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found apriltag_detector: 1.0.0 (/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/cmake)
+-- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robousr/ROS2Dev/Pruebas_Apriltag/build/apriltag_detector_umich
+[35m[1mConsolidate compiler generated dependencies of target apriltag_detector_umich[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/apriltag_detector_umich.dir/src/detector.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libapriltag_detector_umich.so[0m
+[ 42%] Built target apriltag_detector_umich
+[35m[1mConsolidate compiler generated dependencies of target apriltag_detector_umich_component[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/apriltag_detector_umich_component.dir/src/component.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library libapriltag_detector_umich_component.so[0m
+[ 71%] Built target apriltag_detector_umich_component
+[35m[1mConsolidate compiler generated dependencies of target apriltag_detector_umich_node[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/apriltag_detector_umich_node.dir/src/node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable apriltag_detector_umich_node[0m
+[100%] Built target apriltag_detector_umich_node
+-- Install configuration: ""
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/plugins.xml
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/library_path.sh
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/library_path.dsv
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/apriltag_detector_umich/apriltag_detector_umich_node
+-- Set runtime path of "/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/apriltag_detector_umich/apriltag_detector_umich_node" to ""
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/libapriltag_detector_umich.so
+-- Set runtime path of "/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/libapriltag_detector_umich.so" to ""
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/libapriltag_detector_umich_component.so
+-- Set runtime path of "/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/lib/libapriltag_detector_umich_component.so" to ""
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/include
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/include/apriltag_detector_umich
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/ament_index/resource_index/package_run_dependencies/apriltag_detector_umich
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/ament_index/resource_index/parent_prefix_path/apriltag_detector_umich
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/ament_prefix_path.sh
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/ament_prefix_path.dsv
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/path.sh
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/environment/path.dsv
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/local_setup.bash
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/local_setup.sh
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/local_setup.zsh
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/local_setup.dsv
+-- Installing: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/package.dsv
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/ament_index/resource_index/packages/apriltag_detector_umich
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/ament_index/resource_index/apriltag_detector__pluginlib__plugin/apriltag_detector_umich
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/apriltag_detector_umich_exportExport.cmake
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/apriltag_detector_umich_exportExport-noconfig.cmake
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/ament_index/resource_index/rclcpp_components/apriltag_detector_umich
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/apriltag_detector_umichConfig.cmake
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/cmake/apriltag_detector_umichConfig-version.cmake
+-- Up-to-date: /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector_umich/share/apriltag_detector_umich/package.xml

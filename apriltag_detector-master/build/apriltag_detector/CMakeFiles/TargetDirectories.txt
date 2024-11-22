@@ -1,0 +1,10 @@
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector/CMakeFiles/uninstall.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector/CMakeFiles/apriltag_detector_uninstall.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector/CMakeFiles/apriltag_detector.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector/CMakeFiles/test.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector/CMakeFiles/edit_cache.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector/CMakeFiles/rebuild_cache.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector/CMakeFiles/list_install_components.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector/CMakeFiles/install.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector/CMakeFiles/install/local.dir
+/home/robousr/ROS2Dev/Pruebas_Apriltag/apriltag_detector-master/build/apriltag_detector/CMakeFiles/install/strip.dir
