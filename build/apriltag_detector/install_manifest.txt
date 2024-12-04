@@ -2,7 +2,12 @@
 /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/environment/library_path.dsv
 /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/include/apriltag_detector/detector.hpp
 /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector//launch/detector_only.launch.py
+/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector//launch/log/latest
+/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector//launch/log/latest_build
+/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector//launch/v4l2_camera_node.launch.py
 /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector//launch/detect.launch.py
+/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector//launch/install/_local_setup_util_ps1.py
+/home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector//launch/install/_local_setup_util_sh.py
 /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/ament_index/resource_index/package_run_dependencies/apriltag_detector
 /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/ament_index/resource_index/parent_prefix_path/apriltag_detector
 /home/robousr/ROS2Dev/Pruebas_Apriltag/install/apriltag_detector/share/apriltag_detector/environment/ament_prefix_path.sh
